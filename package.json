@@ -1,0 +1,22 @@
+{
+    "name": "com.course_node_js.timezone",
+    "version": "1.0.0",
+    "description": "A command line utility which will convert your current time to a different timezone",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "my-custom-script": "ls"
+    },
+    "keywords": [
+        "time",
+        "zone",
+        "cli"
+    ],
+    "author": "Sadaf Fatin",
+    "license": "ISC",
+    "dependencies": {
+        "moment": "^2.29.1",
+        "moment-timezone": "^0.5.33"
+    }
+}
